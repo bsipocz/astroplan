@@ -21,7 +21,7 @@ env:
     global:
         # Set defaults to avoid repeating in most cases
         - NUMPY_VERSION=stable
-        - ASTROPY_VERSION=stable
+        - ASTROPY_VERSION=1.2
         - MAIN_CMD='python setup.py'
         - CONDA_DEPENDENCIES='pytz'
         - PIP_DEPENDENCIES=''
